@@ -1,0 +1,73 @@
+{
+  "name": "tohyo.xyz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "@emotion/react": "^11.4.1",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@stacks/auth": "^2.0.1",
+    "@stacks/connect": "^6.2.0",
+    "@stacks/connect-react": "^13.0.0",
+    "@stacks/network": "^2.0.1",
+    "@stacks/ui": "^7.10.0",
+    "@tailwindcss/forms": "^0.3.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.1",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^9",
+    "axios": "^0.23.0",
+    "classnames": "^2.3.1",
+    "ipfs-core": "^0.11.1",
+    "postcss": "^7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "^4.4.3",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-syntax-bigint": "^7.8.3",
+    "@types/react-router-dom": "^5.3.2",
+    "redux-devtools": "^3.7.0"
+  },
+  "scripts": {
+    "start": "craco start --max_old_space_size=2560",
+    "build": "craco build --max_old_space_size=2560",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "clarinet:test": "cd clarity && clarinet test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not ie <= 99",
+      "not android <= 4.4.4",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version",
+      "last 2 edge version"
+    ]
+  }
+}
